@@ -4,6 +4,11 @@
 https://css-tricks.com/box-sizing/
 
 
+image sources
+
+card back: https://thenounproject.com/term/oak-leaf/1882831/ oak leaf by Vectors Market from the Noun Project
+acorn and leaf drawing https://pixy.org/4810218/
+
 Welcome BonnieMcb,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.

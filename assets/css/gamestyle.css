@@ -1,0 +1,40 @@
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+#game-board {
+    max-width: 70%;
+    height: 70%;
+    margin: auto;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 20px;
+}
+
+/* Tiles */
+
+.tile {
+    display: flex;
+    box-sizing: border-box;
+    align-self: flex-start;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+/*.tile img {
+    display: flex;
+    box-sizing: border-box;
+    
+    height: 25%;
+    width: 25%;
+}*/
