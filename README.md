@@ -2,6 +2,7 @@
 
 
 https://css-tricks.com/box-sizing/
+https://3dtransforms.desandro.com/card-flip css taken and modified
 
 
 image sources
