@@ -10,6 +10,21 @@ image sources
 card back: https://thenounproject.com/term/oak-leaf/1882831/ oak leaf by Vectors Market from the Noun Project
 acorn and leaf drawing https://pixy.org/4810218/
 
+
+I'm making a memory matching game for MS2. My next task is to place the tiles on the game board randomly. From doing some research, it seems there is some code I could use that uses the Fisher-Yates shuffle. Fine. But first I need to work out what to make the array out of in order to shuffle said array, and link it to my html elements. I had a few ideas:
+- make each image into an Object
+- use .data() to make key value pairs
+- use jQuery.data() so I could select an (html) element as well as a key and value
+ - getElementByClass for the img names
+
+I'm leaning to one of the first 3, as I could give them 'a first name and last name', and shuffle by first name (individual ID), and then implement the matching them by last name (2 cards would share the same 'last name'
+
+I just have no idea how to implement this and was hoping to get some help. Looking around on the internet is not turning up anything useful. 
+I'm hoping you could get back to me on Wednesday morning sometime.
+
+
+
+
 Welcome BonnieMcb,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
