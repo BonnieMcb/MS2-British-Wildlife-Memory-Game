@@ -41,7 +41,6 @@ $(document).ready(function() {
     }
 
 // To lay out cards randomly
-
     let maxTiles = 6;         //hard-coded for testing TODO: link to difficulty level button click
     
         for (let i = 0; i < maxTiles; i++) {

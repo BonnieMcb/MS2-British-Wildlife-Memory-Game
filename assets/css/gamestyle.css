@@ -12,6 +12,10 @@ body {
 #game-board {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
+/* grid-template-rows:    need to set something */
+grid-gap: 10px;
+align-items: center;
+justify-items: center;
 max-width: 80%;
 margin: auto;
 background-color: aliceblue;
@@ -33,19 +37,31 @@ background-color: aliceblue;
     border: 1px solid black;
     justify-content: center;
     border-radius: 30px;
-    padding: 1rem;
-    margin: 0.5rem;
+    /*padding: 1rem;
+    margin: 0.5rem; */
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
 }
 
-#game-board div img {
+#game-board div img{
     display: flex;
     box-sizing: border-box;
-    width: 80%;
+    width: 100%;
+    
 } 
+.pic-front {
+    position: absolute;
+    top: 20%;
+}
 
+#game-board div img .tile-back{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    /*top: 20%; */
+} 
 .tile.is-flipped {
   transform: rotateY(180deg);
 }
@@ -67,12 +83,14 @@ background-color: aliceblue;
 }
 
 .tile-back {
-    background: red
+    background: red;
+    border-radius: 30px;
 }
 
 .tile-front {
-    background: blue;
+    background: #fff;
     transform: rotateY(180deg);
+    border-radius: 30px;
 }
 
 
