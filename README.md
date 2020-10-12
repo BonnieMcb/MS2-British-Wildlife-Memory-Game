@@ -1,4 +1,3 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
 
 https://css-tricks.com/box-sizing/
@@ -13,47 +12,45 @@ card back: https://thenounproject.com/term/oak-leaf/1882831/ oak leaf by Vectors
 acorn and leaf drawing https://pixy.org/4810218/
 
 
+# British Wildlife Memory Game
+
+## Code Institute Milestone Project 2
+
+This website is created for educational purposes only.
+
+//![Happy Dogs Responsive](/assets/images/responsivedog.png)    
+    
+The brief for this second Milestone project was to make a responsive and dynamic website using HTML5, CSS3 and JavaScript. It is the second of four projects as part of the Full Stack Web Development Program at The Code Institute. 
+The British Wildlife Memory Game (BWMG) was created first and foremost as a way to fulfil the requirements of this brief. As I already made a website for the first project, I wanted to make a game in order to use a lot of JavaScript. Thus, a pairs matching game seemed like a good option. I previously worked as an Ecologist in the UK, and ecology and conservation still hold a great interest to me. I therefore decided to put my own spin on the pairs matching game by making it an educational game where users can learn more about British wildlife.
+
+
+[Click here to view the project live.](https://bonniemcb.github.io/............................)
+
+## UX (User Experience)
+
+### Goals
+
+#### Basic Goals
+In terms of the BWMG, the goal was to:
+ - Create a fully-functioning memory game.
+ - 
+
+#### Stretch Goals
+With time and resources allowing, the goal was to:
+- Allow the user to select between 'Learning mode' and 'Timed mode'.
+- Choose a difficulty setting where the higher difficulty increases the number of tiles.
+- Choose between three categories of pictures to match.
+
+### User Stories
+
+1. As a potential customer, I want to see services on offer and get a feel for the company.
+2. As a potential customer who has had a bad experience at a competitor, I want to know who the groomers are and if they are reliable.
+3. As a potential user, I browse websites on my mobile phone and want to have a good experience and be able to find and view the information I want.
+4. As a potential user I want to know if the business is easy to get to.
+5. As a potential customer I want to know what other people say about this business.
+6. As a returning customer I want to be reminded of the services available and be able to make a booking easily.
 
 
 
 
 
-Welcome BonnieMcb,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
