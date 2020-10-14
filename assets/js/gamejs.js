@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     $.getJSON("/assets/data/birds.json", function(json) {
 
-    let maxTiles = 6;         //hard-coded for testing TODO: link to difficulty level button click
+    let maxTiles = 20;         //hard-coded for testing TODO: link to difficulty level button click
     let pairNumber = maxTiles / 2;
 
 // Highlight the buttons on index page

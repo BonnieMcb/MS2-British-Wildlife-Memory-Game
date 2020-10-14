@@ -1,0 +1,24 @@
+.modal {
+    background-color: #FF00FF;
+}
+
+.name {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.name h1, .name h4 {
+    margin: 0;
+}
+
+.name h4 {
+    font-weight: normal;
+}
+
+.latin {
+    font-style: italic;
+}
+
+.modal-pic {
+    width: 100%;
+}

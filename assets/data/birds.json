@@ -1,14 +1,14 @@
 [
     {
         "tileImg": "birds/barn-owl.jpg",
-        "modalImg": "birds/barn-owl_modal.jpg",
+        "modalImg": "birds/goldfinch.jpg",
         "name": "barn owl",
         "latin": "(Tyto alba)",
         "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
     },
     {
         "tileImg": "birds/black-headed-gull.jpg",
-        "modalImg": "birds/black-headed-gull.jpg",
+        "modalImg": "birds/black-headed-gull_modal.jpg",
         "name": "black-headed gull",
         "latin": "(Chroicocephalus ridibundus)",
         "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
