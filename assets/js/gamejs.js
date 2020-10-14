@@ -1,22 +1,7 @@
-let json = [
-  {
-    "img": "birds/barn-owl.jpg",
-    "text": "Birds are cool.",
-    "id": 0
-  },
-  {
-    "img": "birds/black-headed-gull.jpg",
-    "text": "Birds are cool.",
-    "id": 1
-  },
-  {
-    "img": "birds/blue-tit.jpg",
-    "text": "Birds are cool.",
-    "id": 2
-  },
-];
 
 $(document).ready(function() {
+
+    $.getJSON("/assets/data/birds.json", function(json) {
 
     let maxTiles = 6;         //hard-coded for testing TODO: link to difficulty level button click
     let pairNumber = maxTiles / 2;
@@ -28,13 +13,15 @@ $(document).ready(function() {
     });
 
     let gameData = [];
-    //let birds = ["blue-tit.jpg", "blue-tit.jpg", "black-headed-gull.jpg","black-headed-gull.jpg", "barn-owl.jpg", "barn-owl.jpg"];
 
 // Loop over json objects to create game data array
     for (let i = 0; i < pairNumber; ++i) {
         
         // Retrieve json object
         let oneBird = json[i];
+
+        // Add id number in order to match
+        oneBird.id = i;
        
         gameData.push(oneBird);
         gameData.push(oneBird);
@@ -69,7 +56,7 @@ $(document).ready(function() {
         // Select second img tag from tile
         let frontImage = scene.find("img.pic-front");
         // Change src attribute to match image path
-        frontImage.attr("src", "./assets/images/" + gameObject.img);
+        frontImage.attr("src", "./assets/images/" + gameObject.tileImg);
         
         // SET id as data tag on tile (for matching later)
         let tile = scene.find(".tile");
@@ -140,5 +127,6 @@ $(document).ready(function() {
 
 
 
+});
 
 });

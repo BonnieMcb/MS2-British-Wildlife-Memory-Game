@@ -1,10 +1,150 @@
 [
     {
-        "img": "barn-owl.jpg",
-        
+        "tileImg": "birds/barn-owl.jpg",
+        "modalImg": "birds/barn-owl_modal.jpg",
+        "name": "barn owl",
+        "latin": "(Tyto alba)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/black-headed-gull.jpg",
+        "modalImg": "birds/black-headed-gull.jpg",
+        "name": "black-headed gull",
+        "latin": "(Chroicocephalus ridibundus)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/blue-tit.jpg",
+        "modalImg": "birds/blue-tit_modal.jpg",
+        "name": "blue tit",
+        "latin": "(Cyanistes caeruleus)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/bullfinch.jpg",
+        "modalImg": "birds/bullfinch_modal.jpg",
+        "name": "bullfinch",
+        "latin": "(Pyrrhula pyrrhula)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/buzzard.jpg",
+        "modalImg": "birds/buzzard_modal.jpg",
+        "name": "buzzard",
+        "latin": "(Buteo buteo)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/canada-goose.jpg",
+        "modalImg": "birds/canada-goose_modal.jpg",
+        "name": "canada-goose",
+        "latin": "(Branta canadensis)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+        {
+        "tileImg": "birds/curlew.jpg",
+        "modalImg": "birds/curlew_modal.jpg",
+        "name": "curlew",
+        "latin": "(Numenius arquata)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/fieldfare.jpg",
+        "modalImg": "birds/fieldfare_modal.jpg",
+        "name": "fieldfare",
+        "latin": "(Turdus pilaris)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/goldfinch.jpg",
+        "modalImg": "birds/goldfinch_modal.jpg",
+        "name": "goldfinch",
+        "latin": "()",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/great-black-backed-gull.jpg",
+        "modalImg": "birds/great-black-backed-gull_modal.jpg",
+        "name": "great black-backed gull",
+        "latin": "(Larus marinus)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+        {
+        "tileImg": "birds/great-crested-grebe.jpg",
+        "modalImg": "birds/great-crested-grebe_modal.jpg",
+        "name": "great-crested-grebe",
+        "latin": "(Podiceps cristatus)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/great-spotted-woodpecker.jpg",
+        "modalImg": "birds/great-spotted-woodpecker_modal.jpg",
+        "name": "great spotted woodpecker",
+        "latin": "(Dendrocopos major)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+        {
+        "tileImg": "birds/great-tit.jpg",
+        "modalImg": "birds/great-tit_modal.jpg",
+        "name": "great tit",
+        "latin": "(Parus major)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/green-woodpecker.jpg",
+        "modalImg": "birds/green-woodpecker_modal.jpg",
+        "name": "green woodpecker",
+        "latin": "(Picus viridis)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/grey-heron.jpg",
+        "modalImg": "birds/grey-heron_modal.jpg",
+        "name": "grey heron",
+        "latin": "(Ardea cinerea)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/house-martin.jpg",
+        "modalImg": "birds/house-martin_modal.jpg",
+        "name": "house martin",
+        "latin": "(Delichon urbicum)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/house-sparrow.jpg",
+        "modalImg": "birds/house-sparrow_modal.jpg",
+        "name": "house sparrow",
+        "latin": "(Passer domesticus)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/jackdaw.jpg",
+        "modalImg": "birds/jackdaw_modal.jpg",
+        "name": "jackdaw",
+        "latin": "(Coloeus monedula)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/jay.jpg",
+        "modalImg": "birds/jay_modal.jpg",
+        "name": "jay",
+        "latin": "(Garrulus glandarius)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/kestrel.jpg",
+        "modalImg": "birds/kestrel_modal.jpg",
+        "name": "kestrel",
+        "latin": "(Falco tinnunculus)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+    },
+    {
+        "tileImg": "birds/lapwing.jpg",
+        "modalImg": "birds/lapwing_modal.jpg",
+        "name": "lapwing",
+        "latin": "(Vanellus vanellus)",
+        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
     }
-
-
-
-
 ]
+
