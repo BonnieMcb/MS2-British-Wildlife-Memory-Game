@@ -19,6 +19,7 @@ justify-items: center;
 max-width: 80%;
 margin: auto;
 background-color: aliceblue;
+user-select: none;
 }
 
  
@@ -62,7 +63,7 @@ background-color: aliceblue;
     position: absolute;
     /*top: 20%; */
 } 
-.tile.is-flipped {
+.tile.is-flipped, .tile.is-matched {
   transform: rotateY(180deg);
 }
 
