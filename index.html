@@ -11,8 +11,11 @@
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <!--    -------------------------Own--------------------   -->
-    <link rel="stylesheet" href="assets/css/indexstyle.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/index.js"></script>
 
 </head>
@@ -34,31 +37,27 @@
 </section>
 
     <div class="buttons home-div">
-        <div>
+        <div id="difficulty">
             <div>Difficulty:</div>
             <div class="button-group">
-                <button id="easy">Easy</button>
-                <button id="medium">Medium</button>
-                <button id="hard">Hard</button>
+                <button class="highlight-button" value="easy">Easy</button>
+                <button value="medium">Medium</button>
+                <button value="hard">Hard</button>
             </div>
         </div>
-        <div>
+        <div id="category">
             <div>Category:</div>
             <div class="button-group">
-                <button id="birds">Birds</button>
-                <button id="trees">Trees (and Flowers?)</button>
-                <button id="beasts">Beasts</button>
+                <button class="highlight-button" value="birds">Birds</button>
+                <button value="trees" disabled>Trees</button>
+                <button value="beasts" disabled>Beasts</button>
             </div>
         </div>
         <div>
-            <div class="button-group">
-                <form action="game.html">
-                    <button id="play">PLAY</button>
-                </form>
-                
-            </div>
+            <form action="game.html">
+                <button id="play">PLAY</button>
+            </form>
         </div>
-   
     </div>
 
    <div class="rules home-div">

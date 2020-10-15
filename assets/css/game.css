@@ -1,0 +1,136 @@
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #051f20;
+    background-image: url("/assets/images/indexImgs/background.png");
+}
+
+div.heading {
+   /* line-height: 6em; */
+}
+
+div.heading div {
+    font-size: 5vw;
+    font-weight: bold;
+    padding-top: 1vw;
+    color: #cfcfc4;
+}
+
+div.footer {
+    line-height: 4em;
+}
+
+div.footer a {
+    color: #cfcfc4;
+}
+
+div.heading, div.footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #cfcfc4;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+
+    height: calc(100% - 10em);
+}
+
+div.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1em;
+}
+
+#game-board {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+
+    width: min(calc(100vh - 10em), 80vw);
+    height: min(100%, 80vw);
+}
+
+.inherit-height {
+    height: inherit;
+}
+
+div.home, div.replay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.home a, div.replay a {
+    font-size: min(3em, 5vw);
+    color: #cfcfc4;
+}
+
+ 
+/* Tiles */
+
+.scene {
+    width: 100%;
+    perspective: 400px;
+}
+
+.tile {
+    width: 100%;
+    height:100%;
+    
+    position: relative;
+    transition: transform 1s ease-out;
+    transform-style: preserve-3d;
+
+    border-radius: 10px;
+}
+
+div.tile-back {
+    background-color: #C4CFCF;
+    background-image: url("/assets/images/oak-icon.png");
+
+    border-radius: 10px;
+    background-size: min(3em, 5vw);
+    background-repeat: no-repeat;
+}
+
+.tile.is-flipped, .tile.is-matched {
+  transform: rotateY(180deg);
+}
+
+.tile-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    background-position: center;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.tile-front {
+    background-color: #FFF;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+
+
+
+

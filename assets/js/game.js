@@ -1,10 +1,23 @@
 
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/birds.json", function(json) {
+    // NOTE: Category isn't being used right now. See Readme for details.
+    let difficulty = sessionStorage.getItem("difficulty");
+    // Default to medium.
+    if (difficulty == null) {
+        difficulty = "medium";
+    }
 
-    let maxTiles = 2;         //hard-coded for testing TODO: link to difficulty level button click
+    let difficulties = {
+        "easy": 4,
+        "medium": 16,
+        "hard": 36
+    };
+
+    let maxTiles = difficulties[difficulty];
     let pairNumber = maxTiles / 2;
+
+    $.getJSON("/assets/data/birds.json", function(json) {
 
 // Highlight the buttons on index page
     $(".button-group button").click(function() {
@@ -39,24 +52,26 @@ $(document).ready(function() {
     }
 // Shuffle the tiles
     shuffle(gameData)
-    
+
+// Set up CSS for this number of tiles
+    let numRows = Math.sqrt(maxTiles);
+    $("#game-board").css("grid-template-columns", "repeat(" + numRows + ", 1fr)");
 
     function createTile(gameObject) {
         let scene = $(
-            `<div class="scene">
+            `<div class="scene inherit-height">
                 <div class="tile">
-                    <div class="tile-back tile-face"><img class="pic-back" src="assets/images/oak-icon.png" alt="oak leaf icon" draggable="false">
-                    </div>
-                    <div class="tile-front tile-face"><img class="pic-front" src="" alt="barn owl" draggable="false">
-                    </div>
+                    <div class="tile-back tile-face"></div>
+                    <div class="tile-front tile-face"></div>
                 </div>
             </div>`);
 
         // Fill in image path
+
         // Select second img tag from tile
-        let frontImage = scene.find("img.pic-front");
-        // Change src attribute to match image path
-        frontImage.attr("src", "./assets/images/" + gameObject.tileImg);
+        let frontImage = scene.find(".tile-front");
+        // Change css to match image path
+        frontImage.css("background-image", "url(./assets/images/" + gameObject.tileImg + ")");
         
         // SET id as data tag on tile (for matching later)
         let tile = scene.find(".tile");

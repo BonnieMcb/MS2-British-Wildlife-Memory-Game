@@ -7,6 +7,7 @@
 
 body {
     margin: 0;
+    background-color: #051f20;
     background-image: url("/assets/images/indexImgs/background.png");
 }
 
@@ -21,7 +22,6 @@ body {
 
 /* -------------------------Intro section-------------------- */ 
 .intro {
-    background-color: lightgreen;
     margin: 0px;
 }
 

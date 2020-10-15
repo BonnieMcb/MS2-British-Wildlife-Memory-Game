@@ -11,36 +11,59 @@
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <!--    -------------------------Own--------------------   -->
-    <link rel="stylesheet" href="assets/css/gamestyle.css">
-    <link rel="stylesheet" href="assets/css/modalstyle.css">
+    <link rel="stylesheet" href="assets/css/game.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <script src="assets/js/game.js"></script>
 </head>
-<body>
-<form action="index.html">
-    <button id="back">BACK</button>
-</form>
+<body class="inherit-height">
 
-<section id="game-board">
-</section>
-
-
-<!-- Modal HTML  -->
-
-<div id="matched-modal" class="modal">
-    <div class="name">
-        <h1 class="common">PLACEHOLDER</h1>
-        <h4 class="latin">(Placeus Holdus)</h4>
+    <div class="heading">
+        <div>British Wildlife Memory Game</div>
     </div>
-    <div class="modal-image">
-        <img class="modal-pic" src="">
+    <div class="container">
+        <div class="home">
+            <a href="index.html">
+                <i class="fa fa-home"></i>
+            </a>
+        </div>
+        <div class="game-container">
+            <section id="game-board">
+            </section>
+        </div>
+
+        <div class="replay">
+            <a href="game.html">
+                <i class="fa fa-refresh"></i>
+            </a>
+        </div>
     </div>
-    <div class="modal-text">
-        <h4>Did you know...</h4>
-        <p class="fact">Cool fact about some things about this species</p>
+    <div class="footer">
+        <a href="https://www.plantlife.org.uk/" target="_blank">Plantlife</a>
+        &vert;
+        <a href="https://www.rspb.org.uk/" target="_blank">RSPB</a>
+        &vert;
+        <a href="https://www.woodlandtrust.org.uk/" target="_blank">Woodland Trust</a>
     </div>
-</div>
+
+
+    <!-- Modal HTML  -->
+    <div id="matched-modal" class="modal">
+        <div class="name">
+            <h1 class="common">PLACEHOLDER</h1>
+            <h4 class="latin">(Placeus Holdus)</h4>
+        </div>
+        <div class="modal-image">
+            <img class="modal-pic" src="#">
+        </div>
+        <div class="modal-text">
+            <h4>Did you know...</h4>
+            <p class="fact">Cool fact about some things about this species</p>
+        </div>
+    </div>
 
 </body>
 </html>

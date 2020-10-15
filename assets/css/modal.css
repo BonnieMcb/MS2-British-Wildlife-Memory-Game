@@ -1,5 +1,5 @@
 .modal {
-    background-color: #FF00FF;
+    background-color: #cfcfc4;
 }
 
 .name {
@@ -21,4 +21,5 @@
 
 .modal-pic {
     width: 100%;
+    border-radius: 8px;
 }
