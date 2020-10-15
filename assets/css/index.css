@@ -1,5 +1,6 @@
  html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -12,11 +13,12 @@ body {
 }
 
 .home-div {
-    width: 70%;
+    width: 60%;
     height: 200px;
-    border: 2px solid black;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    background: rgba(207,207,196, 0.5);
+    border-radius: 10px;
 }
 
 
@@ -26,7 +28,6 @@ body {
 }
 
 .header {
-    border: 2px solid red;
     height: 100px;
     display: flex;
     /* align-items: center; */
@@ -36,16 +37,12 @@ body {
 h1 {
     font-size: 30px;
     margin: auto;
-    border: 2px solid black;
-    /*display: flex;
-    vertical-align: middle;
-    justify-content: center; */
-
+    font-family: 'Sansita Swashed', cursive;
+    color: #cfcfc4;
 }
 
 .introduction {
-    color: red;
-
+    
 }
 
 /* -------------------------Button section-------------------- */ 
@@ -59,14 +56,23 @@ h1 {
 
 .button-group button {
     float: left;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    padding: 6px;
 }
 
-
-.highlight-button {
+.button-group button.highlight-button {
     background-color: green;
 }
 
+#play {
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
 /* -------------------------Rules section-------------------- */ 
-.rules {
-    
+.rules h3 {
+    padding: 15px 0 0 20px; 
 }
