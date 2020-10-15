@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     $.getJSON("/assets/data/birds.json", function(json) {
 
-    let maxTiles = 20;         //hard-coded for testing TODO: link to difficulty level button click
+    let maxTiles = 2;         //hard-coded for testing TODO: link to difficulty level button click
     let pairNumber = maxTiles / 2;
 
 // Highlight the buttons on index page
@@ -75,7 +75,6 @@ $(document).ready(function() {
     function onClicked() {
 
         // Prevent flipping of matched or already flipped cards
-
         if ($(this).hasClass('is-flipped') || $(this).hasClass("is-matched"))
             return;
 
@@ -85,24 +84,40 @@ $(document).ready(function() {
             $(this).toggleClass("is-flipped");
         }
 
+        matchTiles();
+    }
+
+    function matchedModal(index) {
+        let gameObject = json[index];
+
+        $(".common").html(gameObject.name);
+        $(".latin").html(gameObject.latin);
+        $(".modal-pic").attr("src", "./assets/images/" + gameObject.tileImg);
+        $(".fact").html(gameObject.text);
+
+        $("#matched-modal").modal();
+    }
+
+    function matchTiles() {
         // Check for matching pairs
         let flippedTiles = $(".is-flipped");
         if (flippedTiles.length == 2) {
 
-            // GET id tag for flipped tiles 
             let tile1 = $(flippedTiles[0]);
             let tile2 = $(flippedTiles[1]);
             
+            let tile1Id = tile1.attr("tileid");
+            let tile2Id = tile2.attr("tileid");
+
             // MATCH FOUND
-            if (tile1.attr("tileid") == tile2.attr("tileid")) {
-
+            if (tile1Id == tile2Id) {
+                
+                //Delay matching until flip animation finished
                 window.setTimeout(function()  {
-
-                    console.log("match found");
 
                     tile1.removeClass("is-flipped").addClass("is-matched");
                     tile2.removeClass("is-flipped").addClass("is-matched");
-
+                    matchedModal(tile1Id);
                 }, 1000);
             }
             // NO MATCH FOUND
@@ -112,13 +127,13 @@ $(document).ready(function() {
 
                     tile1.removeClass("is-flipped");
                     tile2.removeClass("is-flipped");
-
                 }, 1000);
             }
         }
     }
 
     $(".tile").click(onClicked);
+
 
 
 
