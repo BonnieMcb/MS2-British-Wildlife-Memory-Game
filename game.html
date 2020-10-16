@@ -22,9 +22,10 @@
     <script src="assets/js/game.js"></script>
 </head>
 <body class="inherit-height">
-
     <div class="heading">
-        <div>British Wildlife Memory Game</div>
+        <div>
+            <a href="index.html">British Wildlife Memory Game</a>
+        </div>
     </div>
     <div class="container">
         <div class="home">
@@ -43,20 +44,19 @@
             </a>
         </div>
     </div>
-    <div class="footer">
+    <footer>
         <a href="https://www.plantlife.org.uk/" target="_blank">Plantlife</a>
         &vert;
         <a href="https://www.rspb.org.uk/" target="_blank">RSPB</a>
         &vert;
         <a href="https://www.woodlandtrust.org.uk/" target="_blank">Woodland Trust</a>
-    </div>
-
+    </footer>
 
     <!-- Modal HTML  -->
     <div id="matched-modal" class="modal">
-        <div class="name">
-            <h1 class="common">PLACEHOLDER</h1>
-            <h4 class="latin">(Placeus Holdus)</h4>
+        <div class="modal-heading">
+            <h1 class="modal-title">PLACEHOLDER</h1>
+            <h4 class="modal-subtitle">(Placeus Holdus)</h4>
         </div>
         <div class="modal-image">
             <img class="modal-pic" src="#">
@@ -64,6 +64,31 @@
         <div class="modal-text">
             <h4>Did you know...</h4>
             <p class="fact">Cool fact about some things about this species</p>
+        </div>
+    </div>
+
+    <div id="complete-modal" class="modal complete-birds">
+        <div class="modal-heading">
+            <h1 class="modal-title">Congratulations</h1>
+            <h4 class="modal-subtitle">You matched them all!</h4>
+        </div>
+        <div class="modal-text">
+            <p class="fact">If you would like to learn more, please visit the <a href="https://www.rspb.org.uk/" target="_blank">RSPB</a>.</p>
+        </div>
+        <div class="modal-image">
+            <img class="modal-pic" src="./assets/images/RSPB-logo.svg">
+        </div>
+        <div class="modal-buttons">
+            <div class="home">
+                <a href="index.html">
+                    <i class="fa fa-home"></i>
+                </a>
+            </div>
+            <div class="replay">
+                <a href="game.html">
+                    <i class="fa fa-refresh"></i>
+                </a>
+            </div>
         </div>
     </div>
 

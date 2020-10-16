@@ -1,7 +1,6 @@
-
 $(document).ready(function() {
 
-    // NOTE: Category isn't being used right now. See Readme for details.
+    // NOTE: "Category" isn't being used right now. See Readme for details.
     let difficulty = sessionStorage.getItem("difficulty");
     // Default to medium.
     if (difficulty == null) {
@@ -19,11 +18,8 @@ $(document).ready(function() {
 
     $.getJSON("/assets/data/birds.json", function(json) {
 
-// Highlight the buttons on index page
-    $(".button-group button").click(function() {
-        $(this).siblings().removeClass("highlight-button");
-        $(this).addClass("highlight-button");
-    });
+    // Shuffle the data to get random data each time
+    shuffle(json);
 
     let gameData = [];
 
@@ -102,15 +98,21 @@ $(document).ready(function() {
         matchTiles();
     }
 
-    function matchedModal(index) {
+    function createMatchedModal(index) {
+
         let gameObject = json[index];
 
-        $(".common").html(gameObject.name);
-        $(".latin").html(gameObject.latin);
-        $(".modal-pic").attr("src", "./assets/images/" + gameObject.tileImg);
-        $(".fact").html(gameObject.text);
+        $("#matched-modal .modal-title").html(gameObject.name);
+        $("#matched-modal .modal-subtitle").html(gameObject.latin);
+        $("#matched-modal .modal-pic").attr("src", "./assets/images/" + gameObject.tileImg);
+        $("#matched-modal .fact").html(gameObject.text);
 
         $("#matched-modal").modal();
+
+        $("#matched-modal").on($.modal.AFTER_CLOSE, function() {
+
+            window.setTimeout(checkCompletion, 100);
+        });
     }
 
     function matchTiles() {
@@ -132,7 +134,9 @@ $(document).ready(function() {
 
                     tile1.removeClass("is-flipped").addClass("is-matched");
                     tile2.removeClass("is-flipped").addClass("is-matched");
-                    matchedModal(tile1Id);
+
+                    createMatchedModal(tile1Id);
+
                 }, 1000);
             }
             // NO MATCH FOUND
@@ -147,16 +151,32 @@ $(document).ready(function() {
         }
     }
 
+    function checkCompletion() {
+        
+        //if all tiles have is-matched class, then show modal
+        if ($(".is-matched").length == maxTiles) {
+            $("#complete-modal").modal({
+                showClose: false,
+                clickClose: false,
+                escapeClose: false
+            });
+        }
+    }
+
+    
     $(".tile").click(onClicked);
 
 
-
-
-
-
-
-
+    // DEBUG: Used for testing
+    window.testing = {
+        complete: function() {
+            $(".tile").addClass("is-matched");
+            checkCompletion();
+        }
+    };
 
 });
 
 });
+
+

@@ -4,147 +4,168 @@
         "modalImg": "birds/barn-owl.jpg",
         "name": "barn owl",
         "latin": "(Tyto alba)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "barn owl",
+        "text": "The barn owl is not only the world’s most widely distributed species of owl, but is also one of the most widespread of all birds, as it is found on every continent except Antarctica."
     },
     {
         "tileImg": "birds/black-headed-gull.jpg",
         "modalImg": "birds/black-headed-gull_modal.jpg",
         "name": "black-headed gull",
         "latin": "(Chroicocephalus ridibundus)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "black-headed gull",
+        "text": "It is most definitely not a 'seagull' and is found commonly almost anywhere inland. For much of the year, it actually has a white head."
     },
     {
         "tileImg": "birds/blue-tit.jpg",
         "modalImg": "birds/blue-tit_modal.jpg",
         "name": "blue tit",
         "latin": "(Cyanistes caeruleus)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "blue tit",
+        "text": "Though the typical nest site is a hole in a tree, blue tits have been recorded nesting in a great variety of situations, from letterboxes to street lamps."
     },
     {
         "tileImg": "birds/bullfinch.jpg",
         "modalImg": "birds/bullfinch_modal.jpg",
         "name": "bullfinch",
         "latin": "(Pyrrhula pyrrhula)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "bullfinch",
+        "text": "They are specialist seed and bud eaters, with pear and cherry tree buds being particular favourites although during when feeding their young they also catch insects."
     },
     {
         "tileImg": "birds/buzzard.jpg",
         "modalImg": "birds/buzzard_modal.jpg",
         "name": "buzzard",
         "latin": "(Buteo buteo)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "buzzard",
+        "text": "Despite its impressive size, the buzzard is not a major predator, preferring a diet of carrion and earthworms."
     },
     {
         "tileImg": "birds/canada-goose.jpg",
         "modalImg": "birds/canada-goose_modal.jpg",
         "name": "canada-goose",
         "latin": "(Branta canadensis)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "canada-goose",
+        "text": "The gander (male) is a fierce defender of his mate and offspring, and will charge any suspected enemy, even one as large as an elk. Mated pairs can be together as long as 20 years."
     },
         {
         "tileImg": "birds/curlew.jpg",
         "modalImg": "birds/curlew_modal.jpg",
         "name": "curlew",
         "latin": "(Numenius arquata)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "curlew",
+        "text": "The curlew is the largest European wading bird, instantly recognisable on winter estuaries or summer moors by its long, downcurved bill, brown upperparts, long legs and evocative call."
     },
     {
         "tileImg": "birds/fieldfare.jpg",
         "modalImg": "birds/fieldfare_modal.jpg",
         "name": "fieldfare",
         "latin": "(Turdus pilaris)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "fieldfare",
+        "text": "The fieldfare is a winter visitor to the UK from Northern Europe, and comes south to the milder climate to enjoy snails, earthworms and berries."
     },
     {
         "tileImg": "birds/goldfinch.jpg",
         "modalImg": "birds/goldfinch_modal.jpg",
         "name": "goldfinch",
-        "latin": "()",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "latin": "(Carduelis carduelis)",
+        "altText": "goldfinch",
+        "text": "The popularity of goldfinches as a cage bird in Victorian Britain led to huge numbers being trapped and causing the population to crash. Halting the decline was one of the first priorities of what would later become the RSPB."
     },
     {
         "tileImg": "birds/great-black-backed-gull.jpg",
         "modalImg": "birds/great-black-backed-gull_modal.jpg",
         "name": "great black-backed gull",
         "latin": "(Larus marinus)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "great black-backed gull",
+        "text": "This is the largest species of gull in the world. A very aggressive hunter, pirate and scavenger mainly found along the coast."
     },
         {
         "tileImg": "birds/great-crested-grebe.jpg",
         "modalImg": "birds/great-crested-grebe_modal.jpg",
         "name": "great-crested-grebe",
         "latin": "(Podiceps cristatus)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "great-crested-grebe",
+        "text": "They dive to feed and also to escape, preferring this to flying. On land they are clumsy because their feet are placed so far back on their bodies. They have an elaborate courtship display in which they rise out of the water and shake their heads. Very young grebes often ride on their parents' backs."
     },
     {
         "tileImg": "birds/great-spotted-woodpecker.jpg",
         "modalImg": "birds/great-spotted-woodpecker_modal.jpg",
         "name": "great spotted woodpecker",
         "latin": "(Dendrocopos major)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "great spotted woodpecker",
+        "text": "click"
     },
         {
         "tileImg": "birds/great-tit.jpg",
         "modalImg": "birds/great-tit_modal.jpg",
         "name": "great tit",
         "latin": "(Parus major)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "great tit",
+        "text": "click"
     },
     {
         "tileImg": "birds/green-woodpecker.jpg",
         "modalImg": "birds/green-woodpecker_modal.jpg",
         "name": "green woodpecker",
         "latin": "(Picus viridis)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "green woodpecker",
+        "text": "click"
     },
     {
         "tileImg": "birds/grey-heron.jpg",
         "modalImg": "birds/grey-heron_modal.jpg",
         "name": "grey heron",
         "latin": "(Ardea cinerea)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "grey heron",
+        "text": "click"
     },
     {
         "tileImg": "birds/house-martin.jpg",
         "modalImg": "birds/house-martin_modal.jpg",
         "name": "house martin",
         "latin": "(Delichon urbicum)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "house martin",
+        "text": "click"
     },
     {
         "tileImg": "birds/house-sparrow.jpg",
         "modalImg": "birds/house-sparrow_modal.jpg",
         "name": "house sparrow",
         "latin": "(Passer domesticus)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "house sparrow",
+        "text": "click"
     },
     {
         "tileImg": "birds/jackdaw.jpg",
         "modalImg": "birds/jackdaw_modal.jpg",
         "name": "jackdaw",
         "latin": "(Coloeus monedula)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "jackdaw",
+        "text": "click"
     },
     {
         "tileImg": "birds/jay.jpg",
         "modalImg": "birds/jay_modal.jpg",
         "name": "jay",
         "latin": "(Garrulus glandarius)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "jay",
+        "text": "click"
     },
     {
         "tileImg": "birds/kestrel.jpg",
         "modalImg": "birds/kestrel_modal.jpg",
         "name": "kestrel",
         "latin": "(Falco tinnunculus)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "kestrel",
+        "text": "click"
     },
     {
         "tileImg": "birds/lapwing.jpg",
         "modalImg": "birds/lapwing_modal.jpg",
         "name": "lapwing",
         "latin": "(Vanellus vanellus)",
-        "text": "In viverra augue et lectus interdum, vitae feugiat dolor porta. Duis nulla ipsum, porta tincidunt lacus pulvinar, condimentum blandit elit. Nunc nec mattis justo."
+        "altText": "lapwing",
+        "text": "click"
     }
 ]
 

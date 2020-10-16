@@ -16,25 +16,41 @@ body {
 }
 
 div.heading {
-   /* line-height: 6em; */
+   line-height: 6em;
 }
 
 div.heading div {
-    font-size: 5vw;
+    font-size: 2em;
     font-weight: bold;
-    padding-top: 1vw;
+    color: #cfcfc4;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+div.heading div a {
+    text-decoration: none;
     color: #cfcfc4;
 }
 
-div.footer {
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
     line-height: 4em;
+    font-family: 'Sansita Swashed', cursive;
 }
 
-div.footer a {
+footer a {
     color: #cfcfc4;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-div.heading, div.footer {
+footer a:hover {
+    text-decoration: underline;
+}
+
+div.heading, footer {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -81,12 +97,15 @@ div.home a, div.replay a {
     color: #cfcfc4;
 }
 
+div.home a:hover, div.replay a:hover {
+    color: #027412;
+}
  
 /* Tiles */
 
 .scene {
     width: 100%;
-    perspective: 400px;
+    perspective: 600px;
 }
 
 .tile {
@@ -107,6 +126,10 @@ div.tile-back {
     border-radius: 10px;
     background-size: min(3em, 5vw);
     background-repeat: no-repeat;
+}
+
+.tile:hover div.tile-back {
+    background-color: #027412;
 }
 
 .tile.is-flipped, .tile.is-matched {

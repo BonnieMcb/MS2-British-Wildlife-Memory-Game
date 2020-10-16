@@ -1,25 +1,53 @@
 .modal {
     background-color: #cfcfc4;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.name {
+.modal-heading {
     margin: 1em 0;
     text-align: center;
 }
 
-.name h1, .name h4 {
+.modal-heading h1, .modal-heading h4 {
     margin: 0;
 }
 
-.name h4 {
-    font-weight: normal;
+.modal-title {
+    font-family: 'Sansita Swashed', cursive;
 }
 
-.latin {
+.modal-subtitle {
+    font-weight: normal;
     font-style: italic;
 }
 
 .modal-pic {
     width: 100%;
     border-radius: 8px;
+}
+
+#complete-modal .modal-text {
+    margin-top: 2em;
+}
+
+#complete-modal .modal-image {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#complete-modal .modal-pic {
+    width: 50%;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-buttons div a {
+    color: #051f20;
+}
+
+.modal-buttons div.replay {
+    margin-left: 2em;
 }

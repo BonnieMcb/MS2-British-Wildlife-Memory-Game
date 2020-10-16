@@ -14,35 +14,36 @@ body {
 
 .home-div {
     width: 60%;
-    height: 200px;
+    height: 220px;
     margin: auto;
     margin-top: 2rem;
-    background: rgba(207,207,196, 0.5);
+    background: rgba(207,207,196, 0.7);
     border-radius: 10px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 2em;
 }
 
+.home-div:first-child {
+    margin-top: 0;
+}
 
 /* -------------------------Intro section-------------------- */ 
-.intro {
-    margin: 0px;
-}
 
 .header {
-    height: 100px;
+    height: 6em;
     display: flex;
-    /* align-items: center; */
-    justify-content: center
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-    font-size: 30px;
-    margin: auto;
+    font-size: 2em;
     font-family: 'Sansita Swashed', cursive;
     color: #cfcfc4;
-}
-
-.introduction {
-    
+    margin: -1px 0 0 0;
 }
 
 /* -------------------------Button section-------------------- */ 
@@ -58,21 +59,78 @@ h1 {
     float: left;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    border-radius: 10px;
-    padding: 6px;
+    padding: 5px;
+    width: 100px;
+    background-color: #cfcfc4;
+    border: none;
+    color: #051f20;
+}
+
+.button-group button:disabled {
+    opacity: 0.4;
+}
+
+.button-group button:not(:disabled):hover {
+  background-color: #027412;
+  color: #cfcfc4;
 }
 
 .button-group button.highlight-button {
-    background-color: green;
+    background-color: #051f20;
+    color: #cfcfc4;
+}
+
+#category, .buttons form {
+    margin-top: 0.5em;
 }
 
 #play {
-    font-size: 18px;
-    padding: 9px;
-    border-radius: 10px;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+
+    background-color: #cfcfc4;
+}
+
+#play i {
+    font-size: 1.5em;
+}
+
+#play:hover {
+  background-color: #027412;
+  color: white;
 }
 
 /* -------------------------Rules section-------------------- */ 
+
 .rules h3 {
-    padding: 15px 0 0 20px; 
+    padding: 0 0 1em 0;
+    margin: 0;
+}
+
+.rules ul {
+    margin: 0;
+}
+
+/* ------------------------- Footer -------------------- */ 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    line-height: 4em;
+    font-family: 'Sansita Swashed', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #cfcfc4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #cfcfc4;
+    font-size: 20px;
 }
