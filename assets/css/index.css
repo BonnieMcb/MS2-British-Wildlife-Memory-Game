@@ -14,7 +14,7 @@ body {
 
 .home-div {
     width: 60%;
-    height: 220px;
+    height: 210px;
     margin: auto;
     margin-top: 2rem;
     background: rgba(207,207,196, 0.7);
@@ -85,13 +85,10 @@ h1 {
 }
 
 #play {
-
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
     border: none;
-
     background-color: #cfcfc4;
+    font-size: 18px;
+    padding: 9px;
 }
 
 #play i {
@@ -134,3 +131,35 @@ footer a {
     color: #cfcfc4;
     font-size: 20px;
 }
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* ------------------------- Media Queries -------------------- */ 
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-div {
+        height: auto;
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .rules {
+        margin-bottom: 2em;
+    }
+
+    .button-group {
+        display: inline-grid;
+    }
+
+    footer {
+        display: none;
+    }
+}
+

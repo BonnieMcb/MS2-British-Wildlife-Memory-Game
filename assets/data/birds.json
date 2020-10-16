@@ -29,7 +29,7 @@
         "name": "bullfinch",
         "latin": "(Pyrrhula pyrrhula)",
         "altText": "bullfinch",
-        "text": "They are specialist seed and bud eaters, with pear and cherry tree buds being particular favourites although during when feeding their young they also catch insects."
+        "text": "They are specialist seed and bud eaters, with pear and cherry tree buds being particular favourites, although when feeding their young they will also catch insects."
     },
     {
         "tileImg": "birds/buzzard.jpg",
@@ -93,7 +93,7 @@
         "name": "great spotted woodpecker",
         "latin": "(Dendrocopos major)",
         "altText": "great spotted woodpecker",
-        "text": "click"
+        "text": "The great spotted woodpecker is a medium-sized woodpecker. It nests in holes that it excavates in trees in broadleaved woodlands, large parks and gardens. It has a distinctive, bouncing flight, but is mostly likely to be heard, rather than seen, as it 'drums' away at a tree trunk during its breeding displays"
     },
         {
         "tileImg": "birds/great-tit.jpg",
@@ -101,7 +101,7 @@
         "name": "great tit",
         "latin": "(Parus major)",
         "altText": "great tit",
-        "text": "click"
+        "text": "The readiness of great tits to use nest boxes is one of the reasons they are such popular birds to study. The longest running study started in Wytham Wood near Oxford in the 1930s and continues to this day."
     },
     {
         "tileImg": "birds/green-woodpecker.jpg",
@@ -109,7 +109,7 @@
         "name": "green woodpecker",
         "latin": "(Picus viridis)",
         "altText": "green woodpecker",
-        "text": "click"
+        "text": "Compared to other woodpeckers, green woodpeckers have relatively weak bills. When excavating their nest holes in trees, they usually only chisel into soft wood, and they rarely drum to communicate. "
     },
     {
         "tileImg": "birds/grey-heron.jpg",
@@ -117,7 +117,7 @@
         "name": "grey heron",
         "latin": "(Ardea cinerea)",
         "altText": "grey heron",
-        "text": "click"
+        "text": "In medieval times the heron was a favourite quarry of falconers who valued its great flying skills and ability to evade the falcon's stoops. Roast herons were also popular at medieval banquets: the young birds, called branchers, were thought to be the best to eat."
     },
     {
         "tileImg": "birds/house-martin.jpg",
@@ -125,7 +125,7 @@
         "name": "house martin",
         "latin": "(Delichon urbicum)",
         "altText": "house martin",
-        "text": "click"
+        "text": "Each nest is made up of at least 1,000 beak-sized mud pellets.It takes a pair of house martins about 10 days to construct their mud-cup nest, and this depends on a suitable supply of mud nearby."
     },
     {
         "tileImg": "birds/house-sparrow.jpg",
@@ -133,7 +133,7 @@
         "name": "house sparrow",
         "latin": "(Passer domesticus)",
         "altText": "house sparrow",
-        "text": "click"
+        "text": "They are very sociable birds, often nesting in colonies. DNA research has shown that 15% of offspring are the result of either the cock or hen mating with another partner, confirming the sparrow’s reputation for sexual infidelity."
     },
     {
         "tileImg": "birds/jackdaw.jpg",
@@ -141,7 +141,7 @@
         "name": "jackdaw",
         "latin": "(Coloeus monedula)",
         "altText": "jackdaw",
-        "text": "click"
+        "text": "These small crows are highly intelligent and social, and easily pick up tricks and new skills in the wild as well as in captivity. Once a tame jackdaw was trained by some Italian thieves to steal money from cash machines but it’s more common to see them working out how to gain access to bird feeders!"
     },
     {
         "tileImg": "birds/jay.jpg",
@@ -149,7 +149,7 @@
         "name": "jay",
         "latin": "(Garrulus glandarius)",
         "altText": "jay",
-        "text": "click"
+        "text": "Eurasian jays are accomplished mimics and will sing songs composed of all sorts of sounds they have heard. They may mimic crying babies, passerine songs, water dropping from a tap, lawn mowers, and even the alarm calls of their predators."
     },
     {
         "tileImg": "birds/kestrel.jpg",
@@ -157,7 +157,7 @@
         "name": "kestrel",
         "latin": "(Falco tinnunculus)",
         "altText": "kestrel",
-        "text": "click"
+        "text": "Kestrels hunt from static perches and by hovering: the latter is far more productive, but uses lots of energy, which is why they hunt mainly from perches during the winter."
     },
     {
         "tileImg": "birds/lapwing.jpg",
@@ -165,7 +165,7 @@
         "name": "lapwing",
         "latin": "(Vanellus vanellus)",
         "altText": "lapwing",
-        "text": "click"
+        "text": "Lapwings are nocturnal animals. They prefer to hunt during the night to avoid black headed gulls which often steal their food. Lapwings are omnivores and have a wide-ranging diet."
     }
 ]
 

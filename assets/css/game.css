@@ -31,31 +31,7 @@ div.heading div a {
     color: #cfcfc4;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 
-    line-height: 4em;
-    font-family: 'Sansita Swashed', cursive;
-}
-
-footer a {
-    color: #cfcfc4;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-div.heading, footer {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: #cfcfc4;
-}
 
 div.container {
     display: grid;
@@ -154,6 +130,31 @@ div.tile-back {
     border-radius: 10px;
 }
 
+/* ------------------------- Footer -------------------- */ 
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
+    line-height: 4em;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+footer a {
+    color: #cfcfc4;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+div.heading, footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #cfcfc4;
+}
 

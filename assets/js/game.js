@@ -8,7 +8,6 @@ $(document).ready(function() {
     }
 
     let difficulties = {
-        "easy": 4,
         "medium": 16,
         "hard": 36
     };
@@ -29,7 +28,7 @@ $(document).ready(function() {
         // Retrieve json object
         let oneBird = json[i];
 
-        // Add id number in order to match
+        // Add id number in order to match tiles
         oneBird.id = i;
        
         gameData.push(oneBird);
