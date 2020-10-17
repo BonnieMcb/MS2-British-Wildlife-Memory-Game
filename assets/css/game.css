@@ -12,7 +12,7 @@ html {
 body {
     margin: 0;
     background-color: #051f20;
-    background-image: url("/assets/images/indexImgs/background.png");
+    background-image: url("../images/indexImgs/background.png");
 }
 
 div.heading {
@@ -30,8 +30,6 @@ div.heading div a {
     text-decoration: none;
     color: #cfcfc4;
 }
-
-
 
 div.container {
     display: grid;
@@ -97,7 +95,7 @@ div.home a:hover, div.replay a:hover {
 
 div.tile-back {
     background-color: #C4CFCF;
-    background-image: url("/assets/images/oak-icon.png");
+    background-image: url("../images/oak-icon.png");
 
     border-radius: 10px;
     background-size: min(3em, 5vw);

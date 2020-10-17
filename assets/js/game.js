@@ -15,7 +15,7 @@ $(document).ready(function() {
     let maxTiles = difficulties[difficulty];
     let pairNumber = maxTiles / 2;
 
-    $.getJSON("/assets/data/birds.json", function(json) {
+    $.getJSON("../data/birds.json", function(json) {
 
     // Shuffle the data to get random data each time
     shuffle(json);
@@ -66,7 +66,7 @@ $(document).ready(function() {
         // Select second img tag from tile
         let frontImage = scene.find(".tile-front");
         // Change css to match image path
-        frontImage.css("background-image", "url(./assets/images/" + gameObject.tileImg + ")");
+        frontImage.css("background-image", "url(../images/" + gameObject.tileImg + ")");
         
         // SET id as data tag on tile (for matching later)
         let tile = scene.find(".tile");
@@ -103,7 +103,7 @@ $(document).ready(function() {
 
         $("#matched-modal .modal-title").html(gameObject.name);
         $("#matched-modal .modal-subtitle").html(gameObject.latin);
-        $("#matched-modal .modal-pic").attr("src", "./assets/images/" + gameObject.tileImg);
+        $("#matched-modal .modal-pic").attr("src", "../images/" + gameObject.tileImg);
         $("#matched-modal .fact").html(gameObject.text);
 
         $("#matched-modal").modal();
