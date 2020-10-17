@@ -84,15 +84,19 @@ I selected illustrated images, for reasons described above. The bird images were
 ##### Home
 
 - A brief description of the purpose of the website.
-- Two radio button groups where the user can choose the difficulty setting.and the category of wildlife pictures they want to play with. The category buttons apart from the default ‘birds’ have been disabled, as the images and code for the other categories have not yet been implemented. 
+- Two radio button groups where the user can choose the difficulty setting (and in the future also the category of wildlife pictures) they want to play with. The category buttons apart from the default ‘birds’ have been disabled, as the images and code for the other categories have not yet been implemented. 
 - A ‘PLAY’ button takes the user to the game on a separate page.
 - The rules of the game are listed. It is assumed that the majority of users know how to play this classic childhood game, and this is therefore positioned at the bottom.
 - An eye-catching yet neutral pattern covers the page.
 
 ##### Game
 
-- The game-board is always square, and this is controlled by the maximum amount of tiles as set by the three difficulties, eg: //////////////////////////////////////////
-- To the side of the game board there are buttons that take the user to the home page, and restart current game.
+- The game-board is always square, and this is controlled by the maximum amount of tiles as set by the two difficulties, eg: 16 or 36 tiles.
+- To the left and right side of the game board there are buttons that take the user to the home page, and restart current game.
+- The game chooses the images to use on the tiles at random, from an array of of 21 different birds and the tiles are laid out randomly.
+- The tiles flip over with a subtle animation when clicked.
+- Upon matching a pair of tiles, a modal is presented to the user, with a picture, common and latin names, and a fact about the species.
+- When the game has been completed, another modal appears, so that the user is not 'stuck'.
 
 
 #### Features To Be Implemented
