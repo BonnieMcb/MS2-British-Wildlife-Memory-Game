@@ -15,7 +15,7 @@ $(document).ready(function() {
     let maxTiles = difficulties[difficulty];
     let pairNumber = maxTiles / 2;
 
-    $.getJSON("../data/birds.json", function(json) {
+    $.getJSON("assets/data/birds.json", function(json) {
 
     // Shuffle the data to get random data each time
     shuffle(json);
