@@ -69,7 +69,7 @@ $(document).ready(function() {
 
 			// SET id as data tag on tile (for matching later)
 			let tile = scene.find(".tile");
-			tile.attr("tileid", gameObject.id);
+			tile.data("tileid", gameObject.id);
 
 			$("#game-board").append(scene);
 		}
@@ -118,8 +118,8 @@ $(document).ready(function() {
 				let tile1 = $(flippedTiles[0]);
 				let tile2 = $(flippedTiles[1]);
 
-				let tile1Id = tile1.attr("tileid");
-				let tile2Id = tile2.attr("tileid");
+				let tile1Id = tile1.data("tileid");
+				let tile2Id = tile2.data("tileid");
 
 				// MATCH FOUND
 				if (tile1Id == tile2Id) {

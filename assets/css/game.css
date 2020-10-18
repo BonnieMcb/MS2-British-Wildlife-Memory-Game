@@ -156,3 +156,9 @@ div.heading, footer {
     color: #cfcfc4;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    div.heading div {
+        font-size: 1.4em;
+    }
+}
