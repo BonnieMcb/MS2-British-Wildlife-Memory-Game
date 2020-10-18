@@ -4,7 +4,7 @@
 
 This website is created for educational purposes only.
 
-![Responsive image](/assets/images/responsive.png)    
+![Responsive](assets/images/responsive.PNG)    
     
 The brief for this second Milestone project was to make a responsive and dynamic website using HTML5, CSS3 and JavaScript. It is the second of four projects as part of the Full Stack Web Development Program at The Code Institute. 
 The British Wildlife Memory Game (BWMG) was created first and foremost as a way to fulfil the requirements of this brief. As I already made a website for the first project, I wanted to make a game in order to use a lot of JavaScript. Thus, a pairs matching game seemed like a good option. I previously worked as an Ecologist in the UK, and ecology and conservation still hold a great interest to me. I therefore decided to put my own spin on the pairs matching game by making it an educational game where users can learn more about British wildlife.
@@ -49,6 +49,8 @@ Initially I had not envisaged a patterened background. Having a one-tone backgro
 
 I wanted the memory game to look well put together, but sourcing free to use wildlife photos from the internet would cause an issue in that I would not be able to control the consistency of the images, in terms of resolution, colours, angles, etc. I therefore decided that I should opt for illustrated images rather than photographs. Another benefit of illustrated images instead of photographs is that they are more useful for identification purposes, as the illustrator can highlight the important features of the species.
 
+Initially the idea was to have three difficulty settings, with ‘easy’ having 12 tiles (4x3 grid) During testing it became clear, however, that a square gameboard was going to be the easiest option to deal with in terms of responsive design. I therefore cut the easy setting.
+
 #### Colour Palette
 
 Colours:
@@ -69,9 +71,9 @@ I selected illustrated images, for reasons described above. The bird images were
 
 #### Wireframes
 
-////////I did not create the website fully in a design tool only to then create it again in HTML/CSS. Instead I used design tools to mock up rough versions of my site, including design and colour combinations. Since this was a solo project, and my first website created unaided, I was mindful of spending too much time creating perfectly responsive design mockups. As such, I was happy keeping some information in my head rather than drawing out the exact version of the final website. On collabarative projects, however, I would have a more finalised version of the website in a design tool. 
+I did not create the website fully in a design tool only to then create it again in HTML/CSS. Instead I used design tools to mock up rough versions of my site, including design and colour combinations. Since this was a solo project, and I was struggling through the JavaScript parts quite slowly, I was mindful of spending too much time creating perfectly responsive design mockups. As such, I was happy keeping some information in my head rather than drawing out the exact version of the final website. On collabarative projects, however, I would have a more finalised version of the website in a design tool. 
 
-![Responsive image](/assets/images/responsive.png) 
+![Wireframes](/assets/images/wireframes.png) 
 
 ### Features
 
@@ -144,6 +146,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/) Fully passed, no errors or warnings
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) My CSS has no errors or warnings.
 -   [Beautify Tools JavaScript Validator](http://beautifytools.com/javascript-validator.php) My JS had no errors.
+
+In order to test the matching I had "tileid" as an attribute during development, so I could see which tiles were which. I used data attributes when development was complete, so that you couldn't simply look at the elements with developer tools. I also wrote a simple function for auto-completing the game to show the winning modal, as playing the game to the win condition took a long time.
 
 ### Testing User Stories
 
