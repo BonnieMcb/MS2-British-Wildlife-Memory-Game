@@ -4,7 +4,7 @@
 
 This website is created for educational purposes only.
 
-//![Happy Dogs Responsive](/assets/images/responsivedog.png)    
+![Responsive image](/assets/images/responsive.png)    
     
 The brief for this second Milestone project was to make a responsive and dynamic website using HTML5, CSS3 and JavaScript. It is the second of four projects as part of the Full Stack Web Development Program at The Code Institute. 
 The British Wildlife Memory Game (BWMG) was created first and foremost as a way to fulfil the requirements of this brief. As I already made a website for the first project, I wanted to make a game in order to use a lot of JavaScript. Thus, a pairs matching game seemed like a good option. I previously worked as an Ecologist in the UK, and ecology and conservation still hold a great interest to me. I therefore decided to put my own spin on the pairs matching game by making it an educational game where users can learn more about British wildlife.
@@ -71,7 +71,7 @@ I selected illustrated images, for reasons described above. The bird images were
 
 ////////I did not create the website fully in a design tool only to then create it again in HTML/CSS. Instead I used design tools to mock up rough versions of my site, including design and colour combinations. Since this was a solo project, and my first website created unaided, I was mindful of spending too much time creating perfectly responsive design mockups. As such, I was happy keeping some information in my head rather than drawing out the exact version of the final website. On collabarative projects, however, I would have a more finalised version of the website in a design tool. 
 
-////////[Wireframes, in Figma](https://www.figma.com/file/hvVtprtZ2O76Y6mLTYofpp/MS1-Dog-Grooming-Website?node-id=0%3A1)
+![Responsive image](/assets/images/responsive.png) 
 
 ### Features
 
